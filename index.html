@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Holy Quran Reader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>📖 Digital Holy Quran Reader</h1>
+    <p>Read and listen to the Holy Quran</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <label for="surahSelect">Select Surah:</label>
+      <select id="surahSelect">
+        <option value="">Loading Surahs...</option>
+      </select>
+
+      <label for="ayahSelect">Select Verse:</label>
+      <select id="ayahSelect" disabled>
+        <option value="">Select Surah first</option>
+      </select>
+
+      <button id="playBtn">▶ Play Audio</button>
+      <button id="pauseBtn">⏸ Pause</button>
+      <button id="stopBtn">⏹ Stop</button>
+    </section>
+
+    <section class="quran-display">
+      <h2 id="surahName">Select a Surah</h2>
+      <p id="ayahText">Quran text will appear here.</p>
+    </section>
+
+    <section class="audio-section">
+      <audio id="quranAudio" controls></audio>
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by AlQuran Cloud API</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

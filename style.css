@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #222;
+  min-height: 100vh;
+}
+
+header {
+  background: #0b6e4f;
+  color: #fff;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+main {
+  max-width: 800px;
+  margin: 25px auto;
+  padding: 0 15px;
+}
+
+.controls {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 180px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #0b6e4f;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #095c41;
+}
+
+.quran-display {
+  background: #fff;
+  margin-top: 20px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+#surahName {
+  color: #0b6e4f;
+  margin-bottom: 15px;
+}
+
+#ayahText {
+  font-size: 22px;
+  line-height: 2;
+  direction: rtl;
+  font-family: "Traditional Arabic", "Amiri", serif;
+}
+
+.audio-section {
+  margin-top: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+audio {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
